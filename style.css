@@ -4,11 +4,24 @@ body {
 .boxes {
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: rgb(8, 129, 129);
   margin: 3px;
   text-align: center;
   line-height: 100px;
   color: white;
   font-size: 20px;
   font-weight: bold;
+  border-radius: 10px;
+}
+
+.Fizz {
+  background-color: rgb(51, 174, 123);
+}
+
+.Buzz {
+  background-color: rgb(233, 211, 103);
+}
+
+.FizzBuzz {
+  background-color: rgb(175, 66, 80);
 }

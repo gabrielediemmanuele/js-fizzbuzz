@@ -17,12 +17,14 @@ for (let number = 1; number <= 100; number++) {
   } else if (number % 5 == 0) {
     result = "Buzz";
   }
+
   console.log(result);
 
   const boxes = document.createElement("div");
 
   boxes.innerHTML = result;
   boxes.classList.add("boxes");
+  boxes.classList.add(result);
   container.append(boxes);
 }
 
