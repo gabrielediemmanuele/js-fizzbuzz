@@ -24,6 +24,8 @@ for (let number = 1; number <= 100; number++) {
 
   boxes.innerHTML = result;
   boxes.classList.add("boxes");
+  /* Per aggiungere un colore diverso prendo "result" e in
+   base alla sua dicitura dà colore */
   boxes.classList.add(result);
   container.append(boxes);
 }
