@@ -21,3 +21,11 @@ for (let number = 1; number <= 100; number++) {
 // perché una volta trovati la sequenza continua.
 // altrimenti trovando solo quelli del 3, o del 5
 // si fermerebbe.
+
+const container = document.getElementById("boxcontainer");
+
+const boxes = document.createElement("div");
+
+boxes.innerHTML = result;
+boxes.classList.add("boxes");
+container.append(boxes);
