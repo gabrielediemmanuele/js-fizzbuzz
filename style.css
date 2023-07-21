@@ -17,9 +17,11 @@ body {
 
 .boxes:hover {
   transition: transform 0.5s;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
-/*Different colors  collegati a js*/
+
+/*Different colors  collegati a js || result = 'Fizz'
+result = 'Buzz' o result = 'FizzBuzz'*/
 .Fizz {
   background-color: rgb(51, 174, 123);
 }
