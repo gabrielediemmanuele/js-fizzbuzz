@@ -14,7 +14,7 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi "FizzBuzz".
 
 ### Bonus 1
 
-- Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare.
+- Crea un container nel DOM , aggiungendo (attraverso la funzione _append()_ ) un elemento html con il numero o la stringa corretta da mostrare.
 
 ### Bonus 2
 
